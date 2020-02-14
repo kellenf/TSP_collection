@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f295c8a6-4ab1-4a26-9ec9-be727a3d96fb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1VNPkM1ea5eVCABitm6CHBLdkWq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.GA_">
+    <configuration name="GA_" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="代码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="foa_2opt_greedy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="代码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foa_2opt_greedy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="foa_2opt_greedy_ga" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="代码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foa_2opt_greedy_ga.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="foa_3opt_greedy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="代码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foa_3opt_greedy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="foa_greedy_single_GA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="代码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foa_greedy_single_GA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.GA_" />
+        <item itemvalue="Python.foa_2opt_greedy" />
+        <item itemvalue="Python.foa_greedy_single_GA" />
+        <item itemvalue="Python.foa_3opt_greedy (1)" />
+        <item itemvalue="Python.foa_2opt_greedy_ga" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f295c8a6-4ab1-4a26-9ec9-be727a3d96fb" name="Default Changelist" comment="" />
+      <created>1577090721775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577090721775</updated>
+      <workItem from="1577090730550" duration="2789000" />
+      <workItem from="1577240027112" duration="27361000" />
+      <workItem from="1577429143900" duration="826000" />
+      <workItem from="1578021564115" duration="1574000" />
+      <workItem from="1578456911638" duration="539000" />
+      <workItem from="1581508345761" duration="13025000" />
+      <workItem from="1581677006036" duration="10966000" />
+      <workItem from="1581691909245" duration="5043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="500" y="219" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581696497621">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="500" y="219" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1581696497621" />
+    <state width="1398" height="138" key="GridCell.Tab.0.bottom" timestamp="1581696947856">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1823" height="276" key="GridCell.Tab.0.bottom/0.23.1440.813/-1920.23.1920.1057@0.23.1440.813" timestamp="1577239945310" />
+    <state width="1878" height="244" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895842" />
+    <state width="1398" height="138" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581696947856" />
+    <state width="1878" height="446" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1578022059799" />
+    <state width="1878" height="266" key="GridCell.Tab.0.bottom/0.23.1920.993@0.23.1920.993" timestamp="1577364609623" />
+    <state width="1398" height="138" key="GridCell.Tab.0.center" timestamp="1581696947855">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1823" height="276" key="GridCell.Tab.0.center/0.23.1440.813/-1920.23.1920.1057@0.23.1440.813" timestamp="1577239945309" />
+    <state width="1878" height="244" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895841" />
+    <state width="1398" height="138" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581696947855" />
+    <state width="1878" height="446" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1578022059798" />
+    <state width="1878" height="266" key="GridCell.Tab.0.center/0.23.1920.993@0.23.1920.993" timestamp="1577364609623" />
+    <state width="1398" height="138" key="GridCell.Tab.0.left" timestamp="1581696947855">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1823" height="276" key="GridCell.Tab.0.left/0.23.1440.813/-1920.23.1920.1057@0.23.1440.813" timestamp="1577239945309" />
+    <state width="1878" height="244" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895841" />
+    <state width="1398" height="138" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581696947855" />
+    <state width="1878" height="446" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1578022059797" />
+    <state width="1878" height="266" key="GridCell.Tab.0.left/0.23.1920.993@0.23.1920.993" timestamp="1577364609622" />
+    <state width="1398" height="138" key="GridCell.Tab.0.right" timestamp="1581696947856">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1823" height="276" key="GridCell.Tab.0.right/0.23.1440.813/-1920.23.1920.1057@0.23.1440.813" timestamp="1577239945309" />
+    <state width="1878" height="244" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895842" />
+    <state width="1398" height="138" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581696947856" />
+    <state width="1878" height="446" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1578022059798" />
+    <state width="1878" height="266" key="GridCell.Tab.0.right/0.23.1920.993@0.23.1920.993" timestamp="1577364609623" />
+    <state width="1398" height="279" key="GridCell.Tab.1.bottom" timestamp="1581696917817">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1878" height="244" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895843" />
+    <state width="1398" height="279" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581696917817" />
+    <state width="1878" height="244" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1578021950590" />
+    <state width="1878" height="254" key="GridCell.Tab.1.bottom/0.23.1920.993@0.23.1920.993" timestamp="1577364609615" />
+    <state width="1398" height="279" key="GridCell.Tab.1.center" timestamp="1581696917816">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1878" height="244" key="GridCell.Tab.1.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895843" />
+    <state width="1398" height="279" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1581696917816" />
+    <state width="1878" height="244" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1578021950589" />
+    <state width="1878" height="254" key="GridCell.Tab.1.center/0.23.1920.993@0.23.1920.993" timestamp="1577364609614" />
+    <state width="1398" height="279" key="GridCell.Tab.1.left" timestamp="1581696917816">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1878" height="244" key="GridCell.Tab.1.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895842" />
+    <state width="1398" height="279" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1581696917816" />
+    <state width="1878" height="244" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1578021950589" />
+    <state width="1878" height="254" key="GridCell.Tab.1.left/0.23.1920.993@0.23.1920.993" timestamp="1577364609614" />
+    <state width="1398" height="279" key="GridCell.Tab.1.right" timestamp="1581696917817">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1878" height="244" key="GridCell.Tab.1.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895843" />
+    <state width="1398" height="279" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1581696917817" />
+    <state width="1878" height="244" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1578021950590" />
+    <state width="1878" height="254" key="GridCell.Tab.1.right/0.23.1920.993@0.23.1920.993" timestamp="1577364609615" />
+    <state x="372" y="142" key="SettingsEditor" timestamp="1581691919219">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="372" y="142" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1581691919219" />
+    <state x="496" y="158" key="SettingsEditor/0.23.1920.993@0.23.1920.993" timestamp="1577090771349" />
+    <state x="299" y="393" key="com.intellij.ide.util.TipDialog" timestamp="1581677069553">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="299" y="366" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1577461280549" />
+    <state x="299" y="393" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578472895743" />
+    <state x="299" y="393" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1581677069553" />
+    <state x="399" y="469" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1578021564796" />
+    <state x="399" y="442" key="com.intellij.ide.util.TipDialog/0.23.1920.993@0.23.1920.993" timestamp="1577241015782" />
+    <state x="469" y="216" width="670" height="598" key="search.everywhere.popup" timestamp="1581513357789">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="469" y="216" width="670" height="598" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1581513357789" />
+    <state x="625" y="242" width="670" height="676" key="search.everywhere.popup/0.23.1920.993@0.23.1920.993" timestamp="1577333920122" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/foa_2opt_greedy_ga.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/foa_shuffle_part.py</url>
+          <line>154</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/foa_2opt_greedy.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/foa_2opt_greedy_morebest.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/foa_3opt_greedy.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/foa_3opt_greedy.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/foa_3opt_greedy.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/foa_2opt_greedy.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GA.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GA.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GA.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GA.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="np.where(x == target)" language="Python" />
+        <watch expression="x" language="Python" />
+        <watch expression="x in ga_result" language="Python" />
+        <watch expression="t,tt = self.ga_cross(x,y)" language="Python" />
+        <watch expression="dis_mat[start][x]" language="Python" />
+        <watch expression="init_best" language="Python" />
+        <watch expression="init_best.shape" language="Python" />
+        <watch expression="init_best[0].shape" language="Python" />
+        <watch expression="init_best[0]" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$foa_2opt_greedy_morebest.coverage" NAME="foa_2opt_greedy_morebest Coverage Results" MODIFIED="1581560541629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$foa_greedy_single_GA.coverage" NAME="foa_greedy_single_GA Coverage Results" MODIFIED="1581687079677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$foa_2opt_greedy_ga.coverage" NAME="foa_2opt_greedy_ga Coverage Results" MODIFIED="1581680689813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$foa_3opt_greedy__1_.coverage" NAME="foa_3opt_greedy (1) Coverage Results" MODIFIED="1581682774599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$foa_3opt_greedy.coverage" NAME="foa_3opt_greedy Coverage Results" MODIFIED="1581522977905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$foa_2opt_greedy.coverage" NAME="foa_2opt_greedy Coverage Results" MODIFIED="1581689503024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$ga.coverage" NAME="ga Coverage Results" MODIFIED="1577350702918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$foa_2opt_greedy_adp.coverage" NAME="foa_2opt_greedy_adp Coverage Results" MODIFIED="1577360562048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TSP$GA_.coverage" NAME="GA_ Coverage Results" MODIFIED="1581696947848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$foa_shuffle_part.coverage" NAME="foa_shuffle_part Coverage Results" MODIFIED="1581679366034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
