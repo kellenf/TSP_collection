@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f295c8a6-4ab1-4a26-9ec9-be727a3d96fb" name="Default Changelist" comment="" />
+    <list default="true" id="f295c8a6-4ab1-4a26-9ec9-be727a3d96fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VNPkM1ea5eVCABitm6CHBLdkWq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,7 +33,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.GA_">
+  <component name="RunManager" selected="Python.SA">
     <configuration name="GA_" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="代码" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,6 +56,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="代码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="foa_2opt_greedy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="代码" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,28 +92,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foa_2opt_greedy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="foa_2opt_greedy_ga" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="代码" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foa_2opt_greedy_ga.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SA" />
         <item itemvalue="Python.GA_" />
         <item itemvalue="Python.foa_2opt_greedy" />
         <item itemvalue="Python.foa_greedy_single_GA" />
         <item itemvalue="Python.foa_3opt_greedy (1)" />
-        <item itemvalue="Python.foa_2opt_greedy_ga" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +183,7 @@
       <workItem from="1578456911638" duration="539000" />
       <workItem from="1581508345761" duration="13025000" />
       <workItem from="1581677006036" duration="10966000" />
-      <workItem from="1581691909245" duration="5043000" />
+      <workItem from="1581691909245" duration="10874000" />
     </task>
     <servers />
   </component>
@@ -183,68 +191,72 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="226" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581754344889">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="226" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1581754344889" />
     <state x="500" y="219" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581696497621">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="500" y="219" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1581696497621" />
-    <state width="1398" height="138" key="GridCell.Tab.0.bottom" timestamp="1581696947856">
+    <state width="1398" height="112" key="GridCell.Tab.0.bottom" timestamp="1581756646535">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1823" height="276" key="GridCell.Tab.0.bottom/0.23.1440.813/-1920.23.1920.1057@0.23.1440.813" timestamp="1577239945310" />
     <state width="1878" height="244" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895842" />
-    <state width="1398" height="138" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581696947856" />
+    <state width="1398" height="112" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581756646535" />
     <state width="1878" height="446" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1578022059799" />
     <state width="1878" height="266" key="GridCell.Tab.0.bottom/0.23.1920.993@0.23.1920.993" timestamp="1577364609623" />
-    <state width="1398" height="138" key="GridCell.Tab.0.center" timestamp="1581696947855">
+    <state width="1398" height="112" key="GridCell.Tab.0.center" timestamp="1581756646535">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1823" height="276" key="GridCell.Tab.0.center/0.23.1440.813/-1920.23.1920.1057@0.23.1440.813" timestamp="1577239945309" />
     <state width="1878" height="244" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895841" />
-    <state width="1398" height="138" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581696947855" />
+    <state width="1398" height="112" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581756646535" />
     <state width="1878" height="446" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1578022059798" />
     <state width="1878" height="266" key="GridCell.Tab.0.center/0.23.1920.993@0.23.1920.993" timestamp="1577364609623" />
-    <state width="1398" height="138" key="GridCell.Tab.0.left" timestamp="1581696947855">
+    <state width="1398" height="112" key="GridCell.Tab.0.left" timestamp="1581756646534">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1823" height="276" key="GridCell.Tab.0.left/0.23.1440.813/-1920.23.1920.1057@0.23.1440.813" timestamp="1577239945309" />
     <state width="1878" height="244" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895841" />
-    <state width="1398" height="138" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581696947855" />
+    <state width="1398" height="112" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581756646534" />
     <state width="1878" height="446" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1578022059797" />
     <state width="1878" height="266" key="GridCell.Tab.0.left/0.23.1920.993@0.23.1920.993" timestamp="1577364609622" />
-    <state width="1398" height="138" key="GridCell.Tab.0.right" timestamp="1581696947856">
+    <state width="1398" height="112" key="GridCell.Tab.0.right" timestamp="1581756646535">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1823" height="276" key="GridCell.Tab.0.right/0.23.1440.813/-1920.23.1920.1057@0.23.1440.813" timestamp="1577239945309" />
     <state width="1878" height="244" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895842" />
-    <state width="1398" height="138" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581696947856" />
+    <state width="1398" height="112" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581756646535" />
     <state width="1878" height="446" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1578022059798" />
     <state width="1878" height="266" key="GridCell.Tab.0.right/0.23.1920.993@0.23.1920.993" timestamp="1577364609623" />
-    <state width="1398" height="279" key="GridCell.Tab.1.bottom" timestamp="1581696917817">
+    <state width="1398" height="318" key="GridCell.Tab.1.bottom" timestamp="1581756383934">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="244" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895843" />
-    <state width="1398" height="279" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581696917817" />
+    <state width="1398" height="318" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581756383934" />
     <state width="1878" height="244" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1578021950590" />
     <state width="1878" height="254" key="GridCell.Tab.1.bottom/0.23.1920.993@0.23.1920.993" timestamp="1577364609615" />
-    <state width="1398" height="279" key="GridCell.Tab.1.center" timestamp="1581696917816">
+    <state width="1398" height="318" key="GridCell.Tab.1.center" timestamp="1581756383933">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="244" key="GridCell.Tab.1.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895843" />
-    <state width="1398" height="279" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1581696917816" />
+    <state width="1398" height="318" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1581756383933" />
     <state width="1878" height="244" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1578021950589" />
     <state width="1878" height="254" key="GridCell.Tab.1.center/0.23.1920.993@0.23.1920.993" timestamp="1577364609614" />
-    <state width="1398" height="279" key="GridCell.Tab.1.left" timestamp="1581696917816">
+    <state width="1398" height="318" key="GridCell.Tab.1.left" timestamp="1581756383933">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="244" key="GridCell.Tab.1.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895842" />
-    <state width="1398" height="279" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1581696917816" />
+    <state width="1398" height="318" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1581756383933" />
     <state width="1878" height="244" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1578021950589" />
     <state width="1878" height="254" key="GridCell.Tab.1.left/0.23.1920.993@0.23.1920.993" timestamp="1577364609614" />
-    <state width="1398" height="279" key="GridCell.Tab.1.right" timestamp="1581696917817">
+    <state width="1398" height="318" key="GridCell.Tab.1.right" timestamp="1581756383933">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="244" key="GridCell.Tab.1.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1578129895843" />
-    <state width="1398" height="279" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1581696917817" />
+    <state width="1398" height="318" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1581756383933" />
     <state width="1878" height="244" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1578021950590" />
     <state width="1878" height="254" key="GridCell.Tab.1.right/0.23.1920.993@0.23.1920.993" timestamp="1577364609615" />
     <state x="372" y="142" key="SettingsEditor" timestamp="1581691919219">
@@ -320,14 +332,19 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GA.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="49" />
+          <url>file://$PROJECT_DIR$/SA.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GA.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="51" />
+          <url>file://$PROJECT_DIR$/SA.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SA.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -352,9 +369,10 @@
     <SUITE FILE_PATH="coverage/$foa_3opt_greedy__1_.coverage" NAME="foa_3opt_greedy (1) Coverage Results" MODIFIED="1581682774599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$foa_3opt_greedy.coverage" NAME="foa_3opt_greedy Coverage Results" MODIFIED="1581522977905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$foa_2opt_greedy.coverage" NAME="foa_2opt_greedy Coverage Results" MODIFIED="1581689503024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TSP$SA.coverage" NAME="SA Coverage Results" MODIFIED="1581756646527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$ga.coverage" NAME="ga Coverage Results" MODIFIED="1577350702918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$foa_2opt_greedy_adp.coverage" NAME="foa_2opt_greedy_adp Coverage Results" MODIFIED="1577360562048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TSP$GA_.coverage" NAME="GA_ Coverage Results" MODIFIED="1581696947848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TSP$GA_.coverage" NAME="GA_ Coverage Results" MODIFIED="1581754329008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$foa_shuffle_part.coverage" NAME="foa_shuffle_part Coverage Results" MODIFIED="1581679366034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
