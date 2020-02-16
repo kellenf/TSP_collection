@@ -205,6 +205,8 @@ class GA(object):
             if tmp_best_score > best_score:
                 best_score = tmp_best_score
                 BEST_LIST = tmp_best_one
+            print(i)
+        print(1./best_score)
         plt.subplot(2, 2, 4)
         plt.title('convergence curve')
         plt.plot(self.iter_x, self.iter_y)

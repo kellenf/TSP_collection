@@ -13,8 +13,6 @@ class SA(object):
         self.num_city = num_city
         self.scores = []
         self.location = data
-        self.ga_choose_ratio = 0.2
-        self.mutate_ratio = 0.2
         # fruits中存每一个个体是下标的list
         self.fire = self.random_init(num_city)
         self.fires = []
