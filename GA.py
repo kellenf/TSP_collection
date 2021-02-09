@@ -12,20 +12,15 @@ class GA(object):
         self.iteration = iteration
         self.location = data
         self.ga_choose_ratio = 0.2
-        self.mutate_ratio = 0.2
+        self.mutate_ratio = 0.05
         # fruits中存每一个个体是下标的list
-        self.fruits = self.random_init(num_total, num_city)
         self.dis_mat = self.compute_dis_mat(num_city, data)
-
+        self.fruits = self.greedy_init(self.dis_mat,num_total,num_city)
         # 显示初始化后的最佳路径
         scores = self.compute_adp(self.fruits)
         sort_index = np.argsort(-scores)
         init_best = self.fruits[sort_index[0]]
         init_best = self.location[init_best]
-        init_best = np.vstack((init_best, init_best[0]))
-        plt.subplot(2, 2, 2)
-        plt.title('init best result')
-        plt.plot(init_best[:, 0], init_best[:, 1])
 
         # 存储每个iteration的结果，画出收敛图
         self.iter_x = [0]
@@ -39,6 +34,34 @@ class GA(object):
             result.append(tmp.copy())
         return result
 
+    def greedy_init(self, dis_mat, num_total, num_city):
+        start_index = 0
+        result = []
+        for i in range(num_total):
+            rest = [x for x in range(0, num_city)]
+            # 所有起始点都已经生成了
+            if start_index >= num_city:
+                start_index = np.random.randint(0, num_city)
+                result.append(result[start_index].copy())
+                continue
+            current = start_index
+            rest.remove(current)
+            # 找到一条最近邻路径
+            result_one = [current]
+            while len(rest) != 0:
+                tmp_min = math.inf
+                tmp_choose = -1
+                for x in rest:
+                    if dis_mat[current][x] < tmp_min:
+                        tmp_min = dis_mat[current][x]
+                        tmp_choose = x
+
+                current = tmp_choose
+                result_one.append(tmp_choose)
+                rest.remove(tmp_choose)
+            result.append(result_one)
+            start_index += 1
+        return result
     # 计算不同城市之间的距离
     def compute_dis_mat(self, num_city, location):
         dis_mat = np.zeros((num_city, num_city))
@@ -197,7 +220,7 @@ class GA(object):
     def run(self):
         BEST_LIST = None
         best_score = -math.inf
-
+        self.best_record = []
         for i in range(1, self.iteration + 1):
             tmp_best_one, tmp_best_score = self.ga()
             self.iter_x.append(i)
@@ -205,11 +228,9 @@ class GA(object):
             if tmp_best_score > best_score:
                 best_score = tmp_best_score
                 BEST_LIST = tmp_best_one
-            print(i)
+            self.best_record.append(1./best_score)
+            print(i,1./best_score)
         print(1./best_score)
-        plt.subplot(2, 2, 4)
-        plt.title('convergence curve')
-        plt.plot(self.iter_x, self.iter_y)
         return self.location[BEST_LIST], 1. / best_score
 
 
@@ -240,22 +261,24 @@ def read_tsp(path):
 data = read_tsp('data/st70.tsp')
 
 data = np.array(data)
-plt.suptitle('GA in st70.tsp')
 data = data[:, 1:]
-plt.subplot(2, 2, 1)
-plt.title('raw data')
-show_data = np.vstack([data, data[0]])
-plt.plot(data[:, 0], data[:, 1])
 Best, Best_path = math.inf, None
 
-foa = GA(num_city=data.shape[0], num_total=50, iteration=400, data=data.copy())
-path, path_len = foa.run()
+model = GA(num_city=data.shape[0], num_total=25, iteration=500, data=data.copy())
+path, path_len = model.run()
 if path_len < Best:
     Best = path_len
     Best_path = path
-plt.subplot(2, 2, 3)
 # 加上一行因为会回到起点
+fig, axs = plt.subplots(2, 1, sharex=False, sharey=False)
+axs[0].scatter(Best_path[:, 0], Best_path[:,1])
 Best_path = np.vstack([Best_path, Best_path[0]])
-plt.plot(Best_path[:, 0], Best_path[:, 1])
-plt.title('result')
+axs[0].plot(Best_path[:, 0], Best_path[:, 1])
+axs[0].set_title('规划结果')
+iterations = range(model.iteration)
+best_record = model.best_record
+axs[1].plot(iterations, best_record)
+axs[1].set_title('收敛曲线')
 plt.show()
+
+

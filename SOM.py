@@ -152,11 +152,6 @@ class SOM(object):
 
     def run(self):
         self.best_length, self.best_path = self.smo()
-        path = self.location[self.best_path]
-        # 画出最终路径
-        plt.subplot(2, 2, 4)
-        plt.title('convergence curve')
-        plt.plot(self.iter_x, self.iter_y)
         return self.location[self.best_path], self.best_length
 
 
@@ -195,12 +190,18 @@ plt.title('raw data')
 show_data = np.vstack([data, data[0]])
 plt.plot(data[:, 0], data[:, 1])
 
-som = SOM(num_city=data.shape[0], data=data.copy())
-Best_path, Best_length = som.run()
-print(Best_length)
-# print()
-plt.subplot(2, 2, 3)
+model = SOM(num_city=data.shape[0], data=data.copy())
+Best_path, Best_length = model.run()
+
+
 Best_path = np.vstack([Best_path, Best_path[0]])
-plt.plot(Best_path[:, 0], Best_path[:, 1])
-plt.title('result')
+fig, axs = plt.subplots(2, 1, sharex=False, sharey=False)
+axs[0].scatter(Best_path[:, 0], Best_path[:,1])
+Best_path = np.vstack([Best_path, Best_path[0]])
+axs[0].plot(Best_path[:, 0], Best_path[:, 1])
+axs[0].set_title('规划结果')
+iterations = model.iter_x
+best_record = model.iter_y
+axs[1].plot(iterations, best_record)
+axs[1].set_title('收敛曲线')
 plt.show()

@@ -6,14 +6,14 @@ import matplotlib.pyplot as plt
 
 class ACO(object):
     def __init__(self, num_city, data):
-        self.m = 30  # 蚂蚁数量
+        self.m = 50  # 蚂蚁数量
         self.alpha = 1  # 信息素重要程度因子
         self.beta = 5  # 启发函数重要因子
         self.rho = 0.1  # 信息素挥发因子
         self.Q = 1  # 常量系数
         self.num_city = num_city  # 城市规模
         self.location = data  # 城市坐标
-        self.Tau = np.ones([num_city, num_city])  # 信息素矩阵
+        self.Tau = np.zeros([num_city, num_city])  # 信息素矩阵
         self.Table = [[0 for _ in range(num_city)] for _ in range(self.m)]  # 生成的蚁群
         self.iter = 1
         self.iter_max = 500
@@ -23,6 +23,46 @@ class ACO(object):
         # 存储存储每个温度下的最终路径，画出收敛图
         self.iter_x = []
         self.iter_y = []
+        # self.greedy_init(self.dis_mat,100,num_city)
+    def greedy_init(self, dis_mat, num_total, num_city):
+        start_index = 0
+        result = []
+        for i in range(num_total):
+            rest = [x for x in range(0, num_city)]
+            # 所有起始点都已经生成了
+            if start_index >= num_city:
+                start_index = np.random.randint(0, num_city)
+                result.append(result[start_index].copy())
+                continue
+            current = start_index
+            rest.remove(current)
+            # 找到一条最近邻路径
+            result_one = [current]
+            while len(rest) != 0:
+                tmp_min = math.inf
+                tmp_choose = -1
+                for x in rest:
+                    if dis_mat[current][x] < tmp_min:
+                        tmp_min = dis_mat[current][x]
+                        tmp_choose = x
+
+                current = tmp_choose
+                result_one.append(tmp_choose)
+                rest.remove(tmp_choose)
+            result.append(result_one)
+            start_index += 1
+        pathlens = self.compute_paths(result)
+        sortindex = np.argsort(pathlens)
+        index = sortindex[0]
+        result = result[index]
+        for i in range(len(result)-1):
+            s = result[i]
+            s2 = result[i+1]
+            self.Tau[s][s2]=1
+        self.Tau[result[-1]][result[0]] = 1
+        # for i in range(num_city):
+        #     for j in range(num_city):
+        # return result
 
     # 轮盘赌选择
     def rand_choose(self, p):
@@ -116,9 +156,6 @@ class ACO(object):
             if cnt == 0:
                 init_show = self.location[tmp_path]
                 init_show = np.vstack([init_show, init_show[0]])
-                plt.subplot(2, 2, 2)
-                plt.title('init best result')
-                plt.plot(init_show[:, 0], init_show[:, 1])
             # 更新最优解
             if tmp_lenth < best_lenth:
                 best_lenth = tmp_lenth
@@ -129,14 +166,11 @@ class ACO(object):
             # 保存结果
             self.iter_x.append(cnt)
             self.iter_y.append(best_lenth)
-            print(cnt)
+            print(cnt,best_lenth)
         return best_lenth, best_path
 
     def run(self):
         best_length, best_path = self.aco()
-        plt.subplot(2, 2, 4)
-        plt.title('convergence curve')
-        plt.plot(self.iter_x, self.iter_y)
         return self.location[best_path], best_length
 
 
@@ -167,21 +201,14 @@ def read_tsp(path):
 data = read_tsp('data/st70.tsp')
 
 data = np.array(data)
-plt.suptitle('ACO in st70.tsp')
 data = data[:, 1:]
-plt.subplot(2, 2, 1)
-plt.title('raw data')
 # 加上一行因为会回到起点
 show_data = np.vstack([data, data[0]])
-plt.plot(data[:, 0], data[:, 1])
 
 aco = ACO(num_city=data.shape[0], data=data.copy())
 Best_path, Best = aco.run()
 print(Best)
-plt.subplot(2, 2, 3)
-
-
 Best_path = np.vstack([Best_path, Best_path[0]])
 plt.plot(Best_path[:, 0], Best_path[:, 1])
-plt.title('result')
+plt.title('st70:蚁群算法规划结果')
 plt.show()
